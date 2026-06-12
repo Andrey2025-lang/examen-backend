@@ -65,7 +65,7 @@ namespace LibraryService.WebAPI
 
             // 5. Configurar CORS para el FE (Vite dev server)
             services.AddCors(o => o.AddPolicy("Frontend", p => p
-                .WithOrigins("http://localhost:5173")
+                .WithOrigins("https://examen-fondend.netlify.app/")
                 .AllowAnyHeader()
                 .AllowAnyMethod()));
 
