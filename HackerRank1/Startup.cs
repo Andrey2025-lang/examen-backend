@@ -109,7 +109,7 @@ namespace LibraryService.WebAPI
                 // Enable middleware to serve generated Swagger as a JSON endpoint.
                 app.UseSwagger();
 
-                // Enable middleware to serve swagger-ui, specifying the Swagger JSON endpoint.
+                // Enable middleware to serve swagger-ui, specifying the Swagger JSON endpoint....
                 app.UseSwaggerUI(c =>
                 {
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "LibraryService API v1");
