@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using HackerRank1.Entities;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace LibraryService.WebAPI.Data
 {
@@ -9,6 +11,7 @@ namespace LibraryService.WebAPI.Data
         { }
 
         public DbSet<Library> Libraries { get; set; }
+        public DbSet<Fraud> Frauds { get; set; }
         public DbSet<Book> Books { get; set; }
     }
 
